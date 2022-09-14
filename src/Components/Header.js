@@ -1,15 +1,18 @@
 import React from 'react'
-import './../Header.css'
 
 const Header = (props) => {
     return (
         <div>
             <a href='#' >Home</a>
-            <div id="menu">
-                <a href="#">Shop</a>
-                <a href="#">About</a>
-                <a href="#">Contact Us</a>
-            </div>
+            <nav className = "breadcrumb is-centered is-large"><div >
+                <ul>
+                   <li><a href="#">Shop</a></li>
+                   <li><a href="#">About</a></li>
+                   <li><a href="#">Contact Us</a></li>
+                   <li class="is-active"><a href="#" aria-current="page">Breadcrumb</a></li>
+                </ul>             
+            </div></nav>
+            
         </div>
     )
 }
