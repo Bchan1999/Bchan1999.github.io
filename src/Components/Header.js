@@ -3,9 +3,10 @@ import React from 'react'
 const Header = (props) => {
     return (
         <div>
-            <a href='#' >Home</a>
+            
             <nav className = "breadcrumb is-centered is-large"><div >
                 <ul>
+                    <a href='#' >Home</a>
                    <li><a href="#">Shop</a></li>
                    <li><a href="#">About</a></li>
                    <li><a href="#">Contact Us</a></li>
