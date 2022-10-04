@@ -1,15 +1,15 @@
 .menu {
     background-color: pink;
     text-align: right;
-    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .menu li {
     margin: 5px;
     font-size: 30px;
-    display: inline-block;
 }
 
-#logo {
+.logo {
+    text-align: left;
     margin-right: auto;
-    margin-right: min(100px);
 }
