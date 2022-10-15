@@ -6,9 +6,9 @@ const About = (props) => {
         <>
             <div className="about-hero">
                 <ul className="infobar">
-                    <li><span>1277</span>Sales</li>
-                    <li><span>5.0</span>Average star reviews</li>
-                    <li><span>Over 200</span>Needle minders</li>
+                    <li><span>1277</span><br/>Sales</li>
+                    <li><span>5.0</span><br/>Average star reviews</li>
+                    <li><span>Over 200</span><br/>Needle minders</li>
                 </ul>
                 <div className="aboutme">
                     <img src="#"></img>
