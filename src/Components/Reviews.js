@@ -1,9 +1,10 @@
 import React from "react";
+import '../Style/Reviews.css'
 
 const Reviews = (props) => {
     return (
         <>
-            <div>
+            <div className="reviews-hero">
                 <h2>Customer Reviews</h2>
                 <ul>
                     <li>

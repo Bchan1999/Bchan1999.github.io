@@ -1,9 +1,10 @@
 import React from "react";
+import '../Style/About.css'
 
 const About = (props) => {
     return (
         <>
-            <div>
+            <div className="about-hero">
                 <ul className="infobar">
                     <li><span>1277</span>Sales</li>
                     <li><span>5.0</span>Average star reviews</li>

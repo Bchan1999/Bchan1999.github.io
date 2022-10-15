@@ -16,7 +16,7 @@ function App() {
   const reviews = [{}]
 
   return (
-    <div >
+    <div id='app'>
       <Header/>
       <Title/>
       <About item={item}/>
