@@ -3,6 +3,7 @@ import './Style/App.css';
 import Header from './Components/Header.js'
 import Title from './Components/Title.js'
 import About from './Components/About';
+import Reviews from './Components/Reviews';
 
 function App() {
 
@@ -17,8 +18,9 @@ function App() {
   return (
     <div >
       <Header/>
-      <Title item={item}/>
+      <Title/>
       <About item={item}/>
+      <Reviews/>
     </div>
   );
 }
