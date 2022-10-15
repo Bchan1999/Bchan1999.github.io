@@ -1,7 +1,8 @@
-import logo from './logo.svg';
+
 import './Style/App.css';
 import Header from './Components/Header.js'
 import Title from './Components/Title.js'
+import About from './Components/About';
 
 function App() {
 
@@ -16,8 +17,8 @@ function App() {
   return (
     <div >
       <Header/>
-      
       <Title item={item}/>
+      <About item={item}/>
     </div>
   );
 }
