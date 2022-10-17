@@ -1,9 +1,22 @@
-.hero-body {
-    width: 200px;
-    text-align: left;
-    font-size: 200px;
+
+@media screen and (min-width: 1201px) {
+    .title {
+        width: 200px;
+        text-align: left;
+        font-size: 200px;
+        padding-left: 10vh;
+    }
+    
+    .hero {
+        height: 90vh
+    }
 }
 
-.hero {
-    
+@media screen and (max-width: 1200px) {
+    .hero-body {
+        text-align: center;
+    }
+    .title {   
+        font-size: 100px;
+    }
 }

@@ -1,12 +1,27 @@
+.aboutme {
+    height: 90vh;
+}
+
 .infobar{
     background-color: #C08497;
     text-align: center;
+    padding: 40px;
 }
 
+.infobar li span {
+   font-size: 500%;
+   font-family: 'HEWITT HEAVY';
+   font-weight: bold;
+   font-style: normal;
+}
+
+/* Dynamic spaced elements */
+/* https://www.w3schools.com/howto/howto_css_topnav_equal_width.asp */
 .infobar li {
     display: inline-block; 
     text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 30%
 }
+
+
 
