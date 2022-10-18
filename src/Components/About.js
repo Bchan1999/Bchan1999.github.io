@@ -4,7 +4,7 @@ import '../Style/About.css'
 const About = (props) => {
     return (
         <>
-            <div className="about-hero">
+            <div className="about-hero" id='about'>
                 <ul className="infobar">
                     <li><span>1277</span><br/>Sales</li>
                     <li><span>5.0</span><br/>Average star reviews</li>
