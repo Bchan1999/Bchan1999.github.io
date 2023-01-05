@@ -1,10 +1,10 @@
-
-import './Style/App.css';
 import Header from './Components/Header.js'
 import Title from './Components/Title.js'
 import About from './Components/About';
 import Reviews from './Components/Reviews';
 import Contact from './Components/Contact';
+import Shop from './Components/Shop'
+import './Style/App.css';
 
 function App() {
 
@@ -22,6 +22,7 @@ function App() {
       <Title/>
       <About item={item}/>
       <Reviews/>
+      <Shop/>
       <Contact/>
     </div>
   );

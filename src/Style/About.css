@@ -1,18 +1,27 @@
+.info-wave {
+    position: relative;
+    
+}
+
 .aboutme {
-    height: 90vh;
+    height: 50vh;
 }
 
 .infobar{
     background-color: #C08497;
     text-align: center;
     padding: 40px;
+    position: relative;
+    height: 15vh;
 }
 
 .infobar li span {
    font-size: 500%;
-   font-family: 'HEWITT HEAVY';
    font-weight: bold;
    font-style: normal;
+}
+.about-me-pic {
+    position: relative;
 }
 
 /* Dynamic spaced elements */
@@ -23,5 +32,43 @@
     width: 30%
 }
 
+/* shape divider app  https://www.shapedivider.app/ */
+.custom-shape-divider-bottom-1672898450 {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
 
+.custom-shape-divider-bottom-1672898450 svg {
+    position: relative;
+    display: block;
+    width: calc(155% + 1.3px);
+    height: 158px;
+}
+
+.custom-shape-divider-bottom-1672898450 .shape-fill {
+    fill: #C08497;
+}
+
+.bottom-wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.bottom-wave svg {
+    position: relative;
+    display: block;
+    width: calc(155% + 1.3px);
+    height: 138px;
+}
+
+.bottom-wave .shape-fill {
+    fill: #FFCAD4;
+}
 

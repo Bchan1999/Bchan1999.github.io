@@ -9,6 +9,10 @@
     display: inline-block;
 }
 
+.menu li:hover {
+    cursor: pointer
+}
+
 #logo {
     margin-right: auto;
     margin-right: min(100px);
