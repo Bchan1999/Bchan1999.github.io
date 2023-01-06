@@ -48,6 +48,41 @@
     fill: #C08497;
 }
 
+#shop-link {
+    float: right;
+    margin-right: 20px;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: table;
+    text-align: center;
+}
+
+#shop-link:hover{
+    cursor: pointer;
+    background-color: #C08497; 
+}
+#shop-link:hover a{
+    color: white;
+}
+
+#link {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#shop-link img {
+    width: 180px;
+}
+
+#shop-link a {
+    font-size: 30px;
+    font-weight: 900;
+    display: block;
+    text-decoration: none;
+}
+
 @media screen and (min-width: 1201px) {
     .title {
         

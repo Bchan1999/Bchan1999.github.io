@@ -6,12 +6,24 @@
     position: relative;
 }
 
-.about-me-pic{
+.bottom-div{
     position: relative;
 }
 
 .aboutme {
-    height: 50vh;
+    
+}
+
+.aboutme h2 {
+    top: 500px
+}
+
+.bio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45vh;
+    padding-bottom: 6vh;
 }
 
 .infobar{
@@ -26,6 +38,11 @@
    font-size: 500%;
    font-weight: bold;
    font-style: normal;
+}
+
+#face {
+    border-radius: 50% ;
+    width: 600px;
 }
 
 
@@ -58,3 +75,13 @@
     fill: #FFCAD4;
 }
 
+@media screen and (min-width: 1201px) {
+    #face{
+        display: center;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+
+}
