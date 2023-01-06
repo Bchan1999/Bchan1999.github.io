@@ -14,12 +14,43 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    position:relative;
+    margin: 0;
     background-image: url('../images/circle-scatter-haikei.svg');
+}
+
+.hero-body{
+    padding-left: 10vh;
+    color: #6F4854;
+}
+
+.hero-body p {
+    font-size: 50px;
+    font-weight: 900;
+}
+.top-wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.top-wave svg {
+    position: relative;
+    display: block;
+    width: calc(121% + 1.3px);
+    height: 106px;
+}
+
+.top-wave .shape-fill {
+    fill: #C08497;
 }
 
 @media screen and (min-width: 1201px) {
     .title {
-        padding-left: 10vh;
+        
     }
     
     .hero {

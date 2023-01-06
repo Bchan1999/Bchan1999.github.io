@@ -3,3 +3,7 @@
     height: 40vh;
     position: relative;
 }
+
+.reviews-hero h2 {
+    margin-top: 0;
+}

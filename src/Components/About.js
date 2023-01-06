@@ -4,37 +4,34 @@ import '../Style/About.css'
 const About = (props) => {
     return (
         <>
-            
-
           <div className="about-hero" id='about'>
-            
-           <section className="info-wave">
-           <div class="custom-shape-divider-bottom-1672898450">
-    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-        <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
-    </svg>
-</div>
+                <div class="top-wave">
+                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+                    </svg>
+                </div>
                 <ul className="infobar">
                     <li><span>1277</span><br/>Sales</li>
                     <li><span>5.0</span><br/>Average star reviews</li>
                     <li><span>Over 200</span><br/>Needle minders</li>
                 </ul>
-           </section>
+
                 <div className="about-me-pic">
-                    <div class="bottom-wave">
+                   <div class="bottom-wave">
                         <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                         <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
                         </svg>
-                    </div> 
+                    </div>  
+                    
                  <img src="#"></img>
+                 
                 </div>
                 
                 <div className="aboutme">
                     <h2>Who am I?</h2>
                     <p>My name is Linda Chan and I am a part time  mother and part time crosstching enthusasit.  I wanted to see more cute and humrous neelde minders in stores. So in 2021 I decided to turn my passion into a business. </p>
                 </div>
-
-
+                
             </div>
 
         </>

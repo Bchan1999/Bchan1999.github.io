@@ -4,6 +4,7 @@ import About from './Components/About';
 import Reviews from './Components/Reviews';
 import Contact from './Components/Contact';
 import Shop from './Components/Shop'
+import Footer from './Components/Footer.js';
 import './Style/App.css';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <Reviews/>
       <Shop/>
       <Contact/>
+      <Footer/>
     </div>
   );
 }

@@ -1,0 +1,39 @@
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .footer-column {
+    width: 23%;
+    margin-bottom: 20px;
+  }
+  
+  .footer-column h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .footer-column p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-column a {
+    font-size: 14px;
+    color: blue;
+    text-decoration: none;
+  }
+  
+  .footer-column a:hover {
+    text-decoration: underline;
+  }
+  
+  .copyright {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+    color: gray;
+  }

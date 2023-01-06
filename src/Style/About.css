@@ -1,6 +1,13 @@
 .info-wave {
     position: relative;
-    
+}
+
+.about-hero{
+    position: relative;
+}
+
+.about-me-pic{
+    position: relative;
 }
 
 .aboutme {
@@ -8,10 +15,10 @@
 }
 
 .infobar{
-    background-color: #C08497;
+    background-color: #C08497; 
     text-align: center;
     padding: 40px;
-    position: relative;
+    margin: 0;
     height: 15vh;
 }
 
@@ -20,9 +27,7 @@
    font-weight: bold;
    font-style: normal;
 }
-.about-me-pic {
-    position: relative;
-}
+
 
 /* Dynamic spaced elements */
 /* https://www.w3schools.com/howto/howto_css_topnav_equal_width.asp */
@@ -30,28 +35,9 @@
     display: inline-block; 
     text-align: center;
     width: 30%
-}
+}  
 
 /* shape divider app  https://www.shapedivider.app/ */
-.custom-shape-divider-bottom-1672898450 {
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
-
-.custom-shape-divider-bottom-1672898450 svg {
-    position: relative;
-    display: block;
-    width: calc(155% + 1.3px);
-    height: 158px;
-}
-
-.custom-shape-divider-bottom-1672898450 .shape-fill {
-    fill: #C08497;
-}
-
 .bottom-wave {
     position: absolute;
     bottom: 0;

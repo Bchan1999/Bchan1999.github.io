@@ -1,19 +1,15 @@
 .menu {
     text-align: right;
     margin: 0%;
-    
 }
 .menu li {
-    margin: 5px;
-    font-size: 30px;
-    display: inline-block;
+    padding: 30px;
+    font-size: 40px;
+    display: inline-block; 
+    color:white
 }
 
 .menu li:hover {
-    cursor: pointer
-}
-
-#logo {
-    margin-right: auto;
-    margin-right: min(100px);
+    cursor: pointer;
+    color: #6F4854;
 }
