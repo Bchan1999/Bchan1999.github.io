@@ -11,8 +11,8 @@ const About = (props) => {
                     </svg>
                 </div>
                 <ul className="infobar">
-                    <li><span>1277</span><br/>Sales</li>
-                    <li><span>5.0</span><br/>Average star reviews</li>
+                    <li><span>2000+</span><br/>Sales</li>
+                    <li><span>5/5</span><br/>Average star reviews</li>
                     <li><span>Over 200</span><br/>Needle minders</li>
                 </ul>
 

@@ -7,3 +7,30 @@
 .reviews-hero h2 {
     margin-top: 0;
 }
+
+.review-body-format {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 6vh;
+}
+
+.review-body-format h2 {
+    position: absolute;
+    left: 100px;
+    text-align: center;
+    font-size: 60px;
+
+}
+.review-body-format ul {
+    margin-left:auto;
+    width: 500px
+}
+
+@media screen and (min-width: 1201px) {
+
+}
+
+@media screen and (max-width: 1200px) {
+
+}

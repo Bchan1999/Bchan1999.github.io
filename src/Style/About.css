@@ -11,18 +11,30 @@
 }
 
 .aboutme {
-    
+   text-align: center; 
 }
 
 .aboutme h2 {
-    top: 500px
+   font-size: 70PX;
+   font-weight: bolder;
+   color: black;
+}
+
+.aboutme p {
+    font-size: 40px;
+    font-weight: 900;
+    min-width: 500px;
+    max-width: 1000px;
+    padding: 90px;
+    padding-top: 0;
+    color: #6F4854;
 }
 
 .bio {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 45vh;
+    height: 60vh;
     padding-bottom: 6vh;
 }
 
@@ -31,14 +43,22 @@
     text-align: center;
     padding: 40px;
     margin: 0;
-    height: 15vh;
+    height: 18vh;
+}
+
+
+.infobar li {
+    font-size: 30px;
+    color: #6F4854;
 }
 
 .infobar li span {
-   font-size: 500%;
-   font-weight: bold;
-   font-style: normal;
-}
+    font-size: 80px;
+    font-weight: bold;
+    font-style: normal;
+    color: white;
+ }
+ 
 
 #face {
     border-radius: 50% ;
