@@ -1,4 +1,4 @@
-.title {
+ .title {
     color: white;
     font-family: 'nunito';
     font-size: 250px;
@@ -19,14 +19,25 @@
     background-image: url('../images/circle-scatter-haikei.svg');
 }
 
-.hero-body{
-    padding-left: 10vh;
-    color: #6F4854;
+@media (min-width: 1281px) {
+    .hero-body{
+        padding-left: 10vh;
+        color: #6F4854;
+        
+    }
+    .needle-logo{
+        text-align: center;
+        float: right;
+    }
+    .needle-logo img{
+        width: 700px;
+    }
 }
 
 .hero-body p {
     font-size: 50px;
     font-weight: 900;
+    color: #6F4854;
 }
 .top-wave {
     position: absolute;
@@ -58,11 +69,11 @@
     display: table;
     text-align: center;
 }
-
 #shop-link:hover{
     cursor: pointer;
     background-color: #C08497; 
 }
+
 #shop-link:hover a{
     color: white;
 }
@@ -81,26 +92,31 @@
     font-weight: 900;
     display: block;
     text-decoration: none;
-}
+} 
 
-@media screen and (min-width: 1201px) {
+
+@media (max-width: 1280px) {
+    .hero{
+        height: 85vh 
+    }
     .title {
-        
-    }
-    
-    .hero {
-        height: 80vh
-    }
-}
-
-@media screen and (max-width: 1200px) {
-    .hero {
-        height: 30vh 
-    }
-    .title {   
-        font-size: 100px;
-        line-height: 200px;
+        font-size: 80px;
         text-align: center;
     }
-
-}
+    .needle-logo{
+        text-align: center;
+    }
+    .needle-logo img{
+        width: 700px;
+    }
+    #shop-link {
+        display: none
+      
+    }
+    #shop-link a {
+        display: none
+    }
+    #shop-link img {
+        display: none
+    }
+  }

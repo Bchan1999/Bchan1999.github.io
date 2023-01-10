@@ -16,11 +16,12 @@ const Title = (props) => {
                 <img src={require('../images/etsy.png')}></img>
                 </div>
             </div> 
+            <div className='needle-logo'><img src={require('../images/logo.png')}/></div>
             <div className = "hero-body">
                 <h1 className = "title">The Needle Nanny</h1>
                 <p>Committed to giving you high-quality needle minders for all your needle art needs.</p>
             </div>
-            <div><img src=""/></div>
+            
 
                 <div class="top-wave">
                     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">

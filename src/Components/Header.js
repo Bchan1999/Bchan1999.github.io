@@ -7,7 +7,7 @@ const Header = (props) => {
                     <ul className = "menu">
                         <li><Link to="about" spy={true} smooth={true} offset={50} duration={500}>About</Link></li>
                         <li><Link to="products" spy={true} smooth={true} offset={50} duration={500}>Products</Link></li>    
-                        <li><a href="#">Contact Us</a></li>
+                        <li><Link to="contact" spy={true} smooth={true} offset={50} duration={500}>Contact</Link></li>
                     </ul>      
       
     )
