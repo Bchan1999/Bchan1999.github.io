@@ -15,7 +15,7 @@
 
 /* Contact form */
 .container {
-    padding: 30px;
+    padding: 100px;
 }
 .contact-hero {
     padding: 3rem 0;
@@ -32,6 +32,10 @@
   .label {
     font-weight: bold;
     margin-top: 1rem;
+  }
+
+  .is-size-3 {
+    font-size: 30px;
   }
   
   .input,

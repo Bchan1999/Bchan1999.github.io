@@ -1,5 +1,21 @@
+.right-menu {
+    display: flex;
+    flex-flow: row nowrap;
+    z-index: 1;
+}
+
+.right-menu li {
+    padding: 18px 10px;
+}
+
 @media (max-width: 768px) {
-    .menu {
-        flex-flow: column nowrap;
+    .right-menu {
+        flex-flow: column;
+        background-color: aqua;
+        position: fixed;
+        top:0;
+        right:0;
+        height: 200vh;
+        width: 300px;
     }
 }

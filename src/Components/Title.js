@@ -4,10 +4,6 @@ import {Link} from 'react-scroll'
 
 const Title = (props) => {
 
-    function etsyLink(e) {
-        console.log('test')
-    }
-
     return (
         <div className = "hero">
                <div class="top-wave">
