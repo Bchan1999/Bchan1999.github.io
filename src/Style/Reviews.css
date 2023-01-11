@@ -1,4 +1,4 @@
-.reviews-hero {
+ .reviews-hero {
     background-color: #C08497;
     height: 82vh;
     position: relative;
@@ -20,7 +20,7 @@
     width: 600px;
     border-radius: 10%;
     margin: 10px;
-}
+} 
 
 
 @media (max-width: 1280px) {

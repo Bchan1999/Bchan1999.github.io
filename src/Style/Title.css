@@ -1,11 +1,6 @@
- .title {
+.title {
     color: white;
     font-family: 'nunito';
-    font-size: 250px;
-    font-weight: 900;
-    line-height: 250px;
-    width: 900px;
-    margin-top: 4vh;
 }
 
 .hero {
@@ -19,10 +14,13 @@
     background-image: url('../images/circle-scatter-haikei.svg');
 }
 
-@media (min-width: 1281px) {
+@media (max-width: 2900px) and (min-width: 2501px) {
+    .hero{
+        height: 90vh 
+    }
     .hero-body{
         padding-left: 10vh;
-        color: #6F4854;
+        color: white;
         
     }
     .needle-logo{
@@ -30,15 +28,74 @@
         float: right;
     }
     .needle-logo img{
-        width: 700px;
+        width: 1400px;
     }
+    .title {
+        color: white;
+        font-family: 'nunito';
+        font-size: 350px;
+        font-weight: 900;
+        line-height: 280px;
+        width: 900px;
+        margin-top: 4vh;
+    } 
 }
+
+ @media (max-width: 2500px ) and (min-width: 2001px) {
+    .hero{
+        height: 90vh 
+    }
+    .hero-body{
+        padding-left: 10vh;
+        color: white;
+        
+    }
+    .needle-logo{
+        text-align: center;
+        float: right;
+    }
+    .needle-logo img{
+        width: 1200px;
+    }
+    .title {
+        color: white;
+        font-family: 'nunito';
+        font-size: 200px;
+        font-weight: 900;
+        line-height: 280px;
+        width: 900px;
+        margin-top: 4vh;
+    } 
+}
+
+@media (max-width: 2000px) and (min-width: 1280px) {
+    .hero{
+        height: 80vh 
+    }
+    .title {
+        margin-top: 0;
+        font-size: 120px;
+        text-align: center;
+    }
+    .needle-logo{
+        text-align: center;
+    }
+    .needle-logo img{
+        width: 900px;
+    }
+    .hero-body p {
+        text-align: center;
+    } 
+} 
+
+
 
 .hero-body p {
     font-size: 50px;
     font-weight: 900;
     color: #6F4854;
-}
+} 
+
 .top-wave {
     position: absolute;
     bottom: 0;
@@ -59,17 +116,20 @@
     fill: #C08497;
 }
 
-#shop-link {
-    float: right;
-    margin-right: 20px;
+/* #shop-link {
+     float: right;
+    margin-right: 20px; 
     background-color: white;
     width: 200px;
     height: 200px;
     border-radius: 50%;
     display: table;
     text-align: center;
-}
-#shop-link:hover{
+    position: absolute;
+    top: -50px;
+    right: -10px;
+} */
+/* #shop-link:hover{
     cursor: pointer;
     background-color: #C08497; 
 }
@@ -92,12 +152,11 @@
     font-weight: 900;
     display: block;
     text-decoration: none;
-} 
+}  */
 
-
-@media (max-width: 1280px) {
+@media (max-width: 1280px) and (min-width: 769px) {
     .hero{
-        height: 85vh 
+        height: 70vh 
     }
     .title {
         font-size: 80px;
@@ -109,14 +168,38 @@
     .needle-logo img{
         width: 700px;
     }
-    #shop-link {
-        display: none
+    /* #shop-link {
+      position: absolute;
       
     }
     #shop-link a {
-        display: none
+
     }
     #shop-link img {
-        display: none
+
     }
+    */
+    .hero-body p {
+        text-align: center;
+    } 
   }
+
+@media (max-width: 768px) and (min-width: 0px) {
+    .hero{
+        height: 70vh 
+    }
+    .needle-logo img{
+        width: 500px;
+    }
+    .needle-logo{
+        text-align: center;
+    }
+    .hero-body p {
+        text-align: center;
+        font-size: 40px;
+    }
+    .title {
+        font-size: 90px;
+        text-align: center;
+    }
+}
