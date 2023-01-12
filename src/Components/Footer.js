@@ -12,9 +12,9 @@ const Footer = () => {
         </div>
         <div className="footer-column">
           <h3>Contact</h3>
-          <p>Instagram</p>
-          <p>Etsy</p>
-          <p>Website</p>
+          <a href='https://www.instagram.com/theneedlenanny/'><p>Instagram</p></a>
+          <a href='https://www.etsy.com/ca/shop/TheNeedleNanny?ref=simple-shop-header-name&listing_id=1159865656'><p>Etsy</p></a>
+          <a href='https://theneedlenanny.com/'><p>Website</p></a>
         </div>
       </div>
       <p className="copyright">Copyright © 2022 The Needle Nanny</p>

@@ -44,7 +44,7 @@
 
 @media (max-width: 2900px) and (min-width: 2501px) {
     .hero{
-        height: 95vh 
+        height: 1300px;  
     }
     .hero-body{
         padding-left: 10vh;
@@ -72,10 +72,10 @@
 
  @media (max-width: 2500px ) and (min-width: 2001px) {
     .hero{
-        height: 90vh 
+        height: 1300px;  
     }
     .hero-body{
-        padding-left: 10vh;
+        padding-left: 100px;
         color: white;
         
     }
@@ -94,13 +94,13 @@
         line-height: 280px;
         width: 900px;
         margin-top: 0vh;
-        padding-top: 4vh;
+        padding-top: 100px;
     } 
 }
 
 @media (max-width: 2000px) and (min-width: 1280px) {
     .hero{
-        height: 80vh 
+        height: 1200px; 
     }
     .title {
         margin-top: 0;
@@ -121,7 +121,7 @@
 
 @media (max-width: 1280px) and (min-width: 769px) {
     .hero{
-        height: 80vh 
+        height: 1100px;  
     }
     .title {
         font-size: 80px;
@@ -138,12 +138,32 @@
     } 
   }
 
-@media (max-width: 768px) and (min-width: 0px) {
+@media (max-width: 768px) and (min-width: 501px) {
     .hero{
-        height: 70vh 
+        height: 1200px; 
     }
     .needle-logo img{
         width: 500px;
+    }
+    .needle-logo{
+        text-align: center;
+    }
+    .hero-body p {
+        text-align: center;
+        font-size: 40px;
+    }
+    .title {
+        font-size: 90px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px) and (min-width: 0px) {
+    .hero{
+        height: 1200px; 
+    }
+    .needle-logo img{
+        width: 400px;
     }
     .needle-logo{
         text-align: center;

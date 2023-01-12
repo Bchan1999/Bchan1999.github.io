@@ -23,7 +23,7 @@
 .aboutme p {
     font-size: 40px;
     font-weight: 900;
-    min-width: 500px;
+    min-width: 300px;
     max-width: 1000px;
     padding: 90px;
     padding-top: 0;
@@ -34,8 +34,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 60vh;
-    padding-bottom: 6vh;
+    height: 1000px;
 }
 
 .infobar{
@@ -43,7 +42,7 @@
     text-align: center;
     padding: 40px;
     margin: 0;
-    height: 18vh;
+    height: 300px;
 }
 
 
@@ -116,10 +115,13 @@
         width: 30%
     }  
     .about-hero{
-        height: 140vh
+        height: 1900px;
+    }
+    .infobar{
+        height: 320px;
     }
     .bio {
-        margin-top: 25vh;
+        margin-top: 250px;
     }
 } 
 
@@ -130,14 +132,15 @@
         width: 400px;
     }
     .bio {
-        margin-top: 30vh;
+        margin-top: 400px;
         flex-direction: column;
     }
     .about-hero{
-        height: 170vh
+        height: 2200px;
     }
     .infobar{
-        height: 30vh;
+        height: 350px;
+        
     }
     .infobar li {
         display: inline-block; 
@@ -147,20 +150,47 @@
     
 }
 
-@media (max-width: 768px) and (min-width: 0px) {
+@media (max-width: 768px) and (min-width: 501px) {
     #face {
         border-radius: 50% ;
         width: 400px;
     }
     .bio {
-        margin-top: 50vh;
+        margin-top: 400px;
         flex-direction: column;
     }
     .about-hero{
-        height: 220vh
+        height: 2800px;
+    }
+    .aboutme p {
+        font-size: 30px;
     }
     .infobar{
-        height: 60vh;
+        height: 800px;
+        list-style: none;
+    }
+    .infobar li {
+        margin-top: 100px;
+    }  
+}
+
+@media (max-width: 500px) and (min-width: 0px) {
+    #face {
+        border-radius: 50% ;
+        width: 300px;
+    }
+    .bio {
+        margin-top: 500px;
+        flex-direction: column;
+    }
+    .aboutme p {
+        font-size: 20px;
+    }
+    .about-hero{
+        height: 2500px;
+    }
+    .infobar{
+        height: 800px;
         list-style: none;
     }
     .infobar li {

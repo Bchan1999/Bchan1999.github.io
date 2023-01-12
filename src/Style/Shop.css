@@ -1,26 +1,29 @@
 .shop-hero {
     align-items: center;
     position: relative;
-    height: 32vh;
+    height: 700px;
   }
   @media (max-width: 2480px) {
     .shop-hero {
-      height: 52vh;
+      height: 800px;
     }
   }
   @media (max-width: 1418px) {
     .shop-hero {
-      height: 82vh;
+      padding-top: 50px;
+      height: 1000px;
     }
   }
   @media (max-width: 1080px) {
     .shop-hero {
-      height: 92vh;
+      padding-top: 50px;
+      height: 1300px;
     }
   }
   @media (max-width: 710px) {
     .shop-hero {
-      height: 152vh;
+      padding-top: 40px;
+      height: 2100px;
     }
   }
   
@@ -73,7 +76,6 @@
 
   .shop-all {
     padding: 10px 20px;
-   
     color:white;
     text-transform: uppercase;
     font-weight: bold;
