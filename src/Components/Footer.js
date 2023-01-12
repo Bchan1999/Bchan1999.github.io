@@ -16,10 +16,6 @@ const Footer = () => {
           <p>Etsy</p>
           <p>Website</p>
         </div>
-        <div className="footer-column">
-          <h3>Support</h3>
-          <p>Get help with using our product.</p>
-        </div>
       </div>
       <p className="copyright">Copyright © 2022 The Needle Nanny</p>
     </footer>

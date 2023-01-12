@@ -115,7 +115,12 @@
         text-align: center;
         width: 30%
     }  
-    
+    .about-hero{
+        height: 140vh
+    }
+    .bio {
+        margin-top: 25vh;
+    }
 } 
 
 
@@ -125,11 +130,11 @@
         width: 400px;
     }
     .bio {
-        margin-top: 15vh;
+        margin-top: 30vh;
         flex-direction: column;
     }
     .about-hero{
-        height: 135vh
+        height: 170vh
     }
     .infobar{
         height: 30vh;
@@ -148,11 +153,11 @@
         width: 400px;
     }
     .bio {
-        margin-top: 20vh;
+        margin-top: 50vh;
         flex-direction: column;
     }
     .about-hero{
-        height: 165vh
+        height: 220vh
     }
     .infobar{
         height: 60vh;

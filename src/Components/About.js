@@ -24,10 +24,12 @@ const About = (props) => {
                     </div>  
                 </div>
                 <div className="bio">
-                    <img id='face' src={require('../images/mom.png')}></img>
+                    <img id='face' src={require('../images/mom.jpg')}></img>
                     <div className="aboutme">
                         <h2>Who am I?</h2>
-                        <p>My name is Linda Chan and I am a part time mother and part time crosstching enthusiast.  I wanted to collect more cute and humorous needle minders for my crosstching projects, but they were hard to find. So in 2021 I decided to change that and now I have turned this obession into a business. </p>
+                        <p>Hello! My name is Linda. I’m a cat loving, cross stitching and baking enthusiast from Alberta. I learned how to cross stitch about 30 years ago. Since then I never stopped. I also love needlepoint, tapestry and embroidery. I have always had a obsession with needle minders and decided to open my own Etsy shop. I am constantly doing research and looking for new products. I carry a wide variety of needle minders.
+I take time to carefully package each order.  My goal is to make you feel special ordering from my shop.
+If you have any questions, please don’t hesitate to contact me.</p>
                     </div>
                 </div> 
                 

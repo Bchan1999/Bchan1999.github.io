@@ -90,5 +90,9 @@
      cursor: pointer;
      color: white;
      font-weight: bold;
-     background-color: #C08497;;
+     background-color: #F7AF9D;
+  }
+
+  .shop-all button:hover {
+    background-color: #b47768;
   }

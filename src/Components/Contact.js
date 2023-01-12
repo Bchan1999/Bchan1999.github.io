@@ -4,7 +4,7 @@ import '../Style/Contact.css'
 const Contact = (props) => {
     return (
         <div className = "contact-hero" id='contact' >
-             <form className="container" action="https://formsubmit.co/brandon.nic99@gmail.com" method="POST">
+             <form className="container" action="https://formsubmit.co/linda_mcchan@hotmail.com" method="POST">
                <fieldset id="box" className="has-background-white-ter">
                   <legend className="is-size-3">Contact Me</legend>
                   <label className="label">Full Name</label>

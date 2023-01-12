@@ -11,11 +11,16 @@
 @media (max-width: 768px) {
     .right-menu {
         flex-flow: column;
-        background-color: aqua;
+        background-color: rgb(99, 60, 72);
         position: fixed;
         top:0;
         right:0;
         height: 200vh;
         width: 300px;
+        padding-top:3.5rem;
+    }
+
+    .right-menu li {
+        color: white
     }
 }

@@ -1,6 +1,7 @@
 .menu {
     text-align: right;
     margin: 0%;
+    background-color: #C08497;
 }
 .menu li {
     padding: 30px;
@@ -12,4 +13,11 @@
 .menu li:hover {
     cursor: pointer;
     color: #6F4854;
+}
+
+
+@media (max-width: 768px) {
+    .menu{
+        display: none
+    }
 }
